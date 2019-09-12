@@ -21,9 +21,11 @@ public class DemoAjaxApplication implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-		
-		SocialMetaTag tag = service.getSocialMetaTagByUrl("https://www.pichau.com.br/gabinete-gamer-azza-luminous-110-lateral-de-vidro-led-rgb-azza-110");
-		System.out.println(tag.toString());
+		/*
+		 * SocialMetaTag tag = service.getSocialMetaTagByUrl(
+		 * "https://www.pichau.com.br/gabinete-gamer-azza-luminous-110-lateral-de-vidro-led-rgb-azza-110"
+		 * ); System.out.println(tag.toString());
+		 */
 		
 	}
 
